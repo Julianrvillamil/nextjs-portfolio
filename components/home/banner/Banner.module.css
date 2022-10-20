@@ -1,0 +1,37 @@
+.title {
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 30%;
+  right: 15%;
+  width: 390px;
+
+  font-weight: 700;
+}
+.imgContainer {
+  background-blend-mode: darken;
+  padding: 100px;
+}
+
+@media (max-width: 640px) {
+  .title {
+    text-align: center;
+    margin: 0 auto;
+    top: 40%;
+    font-size: 40px;
+    width: 200px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+
+@media (min-width: 640px) {
+}
+
+@media (min-width: 900px) {
+}
+
+@media (min-width: 1800px) {
+}

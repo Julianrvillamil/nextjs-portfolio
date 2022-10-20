@@ -1,0 +1,16 @@
+.idiomaContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  background-color: papayawhip;
+  font-weight: bold;
+}
+
+.idioma {
+  margin-bottom: 0px !important;
+  width: 60px;
+}

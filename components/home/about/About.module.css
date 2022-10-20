@@ -1,0 +1,20 @@
+.seccion {
+  margin-top: 64px;
+}
+.imageContainer {
+  border-radius: 18%;
+  transition: transform 0.2s;
+  width: 100px;
+  height: 100px;
+}
+.imageContainer:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 5px 5px rgb(71, 71, 71);
+}
+
+.imagen {
+  padding: 10px;
+  transition: transform 0.2s;
+}
+.imagen:hover {
+}
