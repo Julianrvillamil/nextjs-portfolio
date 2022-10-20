@@ -24,8 +24,8 @@ export default function ProjectCard({
         </div>
 
         <ListGroup className="list-group-flush">
-          {skills.map((skill) => (
-            <ListGroup.Item>{skill}</ListGroup.Item>
+          {skills.map((skill, index) => (
+            <ListGroup.Item key={index}>{skill}</ListGroup.Item>
           ))}
           {/* <ListGroup.Item>Cras justo odio</ListGroup.Item>
           <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
