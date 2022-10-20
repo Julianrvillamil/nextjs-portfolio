@@ -107,7 +107,7 @@ export default function Contact() {
             <input
               type={"hidden"}
               name="_next"
-              value={"http://localhost:3000/"}
+              value={"https://nextjs-portfolio-23pn.vercel.app/"}
             ></input>
             <input type={"hidden"} name="_captcha" value="false"></input>
           </Form>
